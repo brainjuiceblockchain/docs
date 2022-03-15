@@ -1,9 +1,0 @@
-title: Smart contracts and signatures
-
-arrange:
-  - index.md
-  - apps
-  - smartsigs
-  - ABI
-  - frontend
-  - debugging.md 
