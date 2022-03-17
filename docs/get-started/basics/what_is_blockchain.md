@@ -19,7 +19,7 @@ Compara esto a un tradicional libro mayor de transacción de datos que puede est
 </center>
 
 El “bloque”, parte de “Blockchain”, hace referencia a un conjunto de transacciones propuesto y validado por otros nodos y añadido finalmente al libro mayor.
-La parte “cadena”, hace referencia al hecho de que cada bloque de la transacción contenga prueba de manipulaciones (Hash criptográfico) de lo que se haya modificado en el anterior bloque. Este patrón, de capturar los bloques de datos anteriores en el bloque actual, sigue a lo largo del inicio del comienzo de la red (bloque origen) crenado una verificable público y un registro seguro de todas las transacciones existentes. 
+La parte “cadena”, hace referencia al hecho de que cada bloque de la transacción contenga prueba de manipulaciones (Hash criptográfico) de lo que se haya modificado en el anterior bloque. Este patrón, de capturar los bloques de datos anteriores en el bloque actual, se hace desde el inicio del comienzo de la red (bloque origen) creando un verificable público y un registro seguro de todas las transacciones existentes. 
 
 <center>
 ![Blockchain diagram](../../imgs/blockchain-diagram.png){: width='500px' }
@@ -29,19 +29,19 @@ En otras palabras, si se intenta modificar un solo registro en cualquier parte  
 
 <center>
 ![Man attempts to change blockchain record, unsuccessfully](../../imgs/basics-immutable.png){: width='500px' }
-<figcaption style="font-size:12px">A malicious user attempts to change a past blockchain record, unsuccessfully.</figcaption>
+<figcaption style="font-size:12px">Un usuario malicioso intenta cambiar un registro pasado de blockchain fracasadamente.</figcaption>
 </center>
 
-Compare this to a traditional ledger where a change in a database is entrusted to a limited group and can easily be manipulated either through malicious intent or simply error. 
+Compara esto con un libro mayor tradicional donde un cambio en la base de datos es confiado a un grupo limite que pueden ser fácilmente manipulado  a través de intentos maliciosos o simplemente por error. 
 
 <center>
 ![Traditional bid error](../../imgs/basics-traditional-error.png){: width='500px' }
-<figcaption style="font-size:12px">Example of how a centralized system could unintentionally disqualify user participation.</figcaption>
+<figcaption style="font-size:12px">Ejemplo de cómo un sistema centralizado puede accidentalmente descalificar la participación de usuario.</figcaption>
 </center>
 
 
 
-But how do blocks get added to the chain in the first place? Each node runs software that instructs them how to verify transactions and add new blocks to the chain. These instructions are collectively referred to as the “consensus protocol”.  The nature of these instructions are one of the main distinguishing factors of different blockchains. We will learn more about Algorand’s consensus protocol and how it differs from others’ later in this guide. 
+Pero, ¿ cómo se puede añadir bloques a la cadena en primer lugar? Cada nodo ejecuta un software que les instruye de cómo verificar las transacciones y de añadir nuevos bloques a la cadena. Estas instrucciones se llaman en conjunto "Consensus protocol". La naturaleza de estas instrucciones son una de los principales factores característico de los diferentes blockchain.
 
 # How will blockchain benefit my application?
 
