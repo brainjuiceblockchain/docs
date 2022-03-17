@@ -1,30 +1,31 @@
-title: What is a blockchain? 
+title: ¿Qué es blockchain? 
 
 <center>
 ![Blockchain versus traditional database](../../imgs/basics-blockchain-vs-traditional.png){: style="width:500px" align=center }
 </center>
 
-A blockchain is a public ledger (or file) of transactional data, distributed across multiple computers (“nodes”) in a network. All of these nodes work together, using the same set of software and rules, to verify transactions to add to the finalized ledger. 
+Blockchain es un libro mayor público (o archivo) de transaciones de datos, distribuido entre un red de ordenadores (“nodos”). Todos estos nodos trabajan juntos, utilizando el mismo conjunto de software y reglas para verificar transacciones a añadir en el libro mayor cerrado. 
 
 <center>
 ![Woman bids on blockchain](../../imgs/basics-woman-bid-blockchain.png){: style="width:500px" align=center }
-<figcaption style="font-size:12px">A woman places a bid on a house using software built on top of a decentralized blockchain.</figcaption>
+<figcaption style="font-size:12px">Una mujer puja por un casa utilizando un software construido sobre un blockchain descentralizado.</figcaption>
 </center>
 
-Compare this to a traditional ledger of transactional data that may live in a single database on a few computers that only certain people have access to.
+Compara esto a un tradicional libro mayor de transacción de datos que puede estar en una sola base de datos configurado en unos pocos ordenadores donde sólo unas personas tienen acceso.
 
 <center>
 ![Woman bids in traditional world](../../imgs/basics-woman-bid-traditional.png){: width='500px' }
-<figcaption style="font-size:12px">A woman places a bid on a house using a private agency.</figcaption>
+<figcaption style="font-size:12px">Una mujer puja por una casa usando una agencia privado.</figcaption>
 </center>
 
-The “block” part of “blockchain” refers to a set of transactions that are proposed and verified by the other nodes and eventually added to the ledger. The “chain” part, refers to the fact that each block of transactions also contains proof (a cryptographic hash) of what was in the previous block. This pattern of capturing the previous block’s data in the current block continues all the way back to the start of the network (the genesis block) creating a publicly verifiable and tamperproof record of all transactions, ever. 
+El “bloque”, parte de “Blockchain”, hace referencia a un conjunto de transacciones propuesto y validado por otros nodos y añadido finalmente al libro mayor.
+La parte “cadena”, hace referencia al hecho de que cada bloque de la transacción contenga prueba de manipulaciones (Hash criptográfico) de lo que se haya modificado en el anterior bloque. Este patrón, de capturar los bloques de datos anteriores en el bloque actual, sigue a lo largo del inicio del comienzo de la red (bloque origen) crenado una verificable público y un registro seguro de todas las transacciones existentes. 
 
 <center>
 ![Blockchain diagram](../../imgs/blockchain-diagram.png){: width='500px' }
 </center>
 
-Practically, this means that if you try to change even a single record, anywhere in the history of a blockchain, it will be evident and rejected by the network nodes. 
+En otras palabras, si se intenta modificar un solo registro en cualquier parte  de la historia de un blockchain, la modificación será detectado y rechazado por los nodos de la red. 
 
 <center>
 ![Man attempts to change blockchain record, unsuccessfully](../../imgs/basics-immutable.png){: width='500px' }
