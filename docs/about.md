@@ -2,4 +2,4 @@ title: Sobre nosotros
 
 # Equipo Brain Juice Blockchain!
 
-Y si somos los mejores, bueno y que.
+Y si somos los mejores?
