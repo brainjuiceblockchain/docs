@@ -1,9 +1,5 @@
-# Algorand Developer Documentation (Official)
+# Brain Juice Blockchain Developer Documentation (Official)
 
-This is the official repository for the [Algorand Developer Documentation](https://developer.algorand.org/docs/) hosted on the [Algorand Developer Portal](https://developer.algorand.org/).
-
-## Contributing
-Learn how you can contribute in our [Guide to Contributing](./CONTRIBUTING.md).
 
 ## License
 
