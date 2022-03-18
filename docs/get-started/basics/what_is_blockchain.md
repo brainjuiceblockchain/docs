@@ -43,4 +43,4 @@ Compara esto con un libro mayor tradicional donde un cambio en la base de datos 
 
 Pero, ¿ cómo se puede añadir bloques a la cadena en primer lugar? Cada nodo ejecuta un software que les instruye de cómo verificar las transacciones y de añadir nuevos bloques a la cadena. Estas instrucciones se llaman en conjunto "Consensus protocol". La naturaleza de estas instrucciones son una de los principales factores característico de los diferentes blockchain.
 
-# Cómo puede una applicación beneficiarse de Blockchain?
+# ¿Cómo puede una applicación beneficiarse de Blockchain?
